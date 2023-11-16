@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Seven_Courses/static/css/main.1d95d041.css",
+    "main.js": "/Seven_Courses/static/js/main.863bc075.js",
+    "static/js/787.4f37e0b5.chunk.js": "/Seven_Courses/static/js/787.4f37e0b5.chunk.js",
+    "static/media/Atoms - 13232.mp4": "/Seven_Courses/static/media/Atoms - 13232.5f8070a3e39ccdec2b3e.mp4",
+    "static/media/courses-3.jpg": "/Seven_Courses/static/media/courses-3.9216bbea7481777e4816.jpg",
+    "static/media/courses-4.jpg": "/Seven_Courses/static/media/courses-4.70e1ab8dc1fcf4be949e.jpg",
+    "static/media/courses-5.webp": "/Seven_Courses/static/media/courses-5.d8a10ed7a339db26f64a.webp",
+    "static/media/courses-1.webp": "/Seven_Courses/static/media/courses-1.26cc15a976d7e7fee039.webp",
+    "index.html": "/Seven_Courses/index.html",
+    "main.1d95d041.css.map": "/Seven_Courses/static/css/main.1d95d041.css.map",
+    "main.863bc075.js.map": "/Seven_Courses/static/js/main.863bc075.js.map",
+    "787.4f37e0b5.chunk.js.map": "/Seven_Courses/static/js/787.4f37e0b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d95d041.css",
+    "static/js/main.863bc075.js"
+  ]
+}
