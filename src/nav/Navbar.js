@@ -16,7 +16,6 @@ function Navba() {
         } else {
             setFix(false)
         }
-        console.log(window.scrollY);
     }
     window.addEventListener("scroll", setScroll);
     return (

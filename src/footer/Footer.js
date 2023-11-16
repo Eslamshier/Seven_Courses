@@ -14,20 +14,23 @@ function Footer() {
             <div class="container">
                 <div class="row mt-5 align-items-center d-flex text-center text-md-start">
                     
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-12 col-lg-3">
                         <div class="fw-bold fs-5 mb-3"><img src='https://the7.io/online-courses/wp-content/uploads/sites/70/2020/04/courseslogo-l-manr.svg'></img></div>
                     </div>
 
-                    <div class="col-md-6 col-lg-9 mb-4  d-flex justify-content-end text-md-end">
-                        <div class="div col-md-6 col-lg-3 ms-2">
+                    <div class="col-md-12 col-lg-9 mb-4  d-flex justify-content-end text-md-center">
+                        
+                        <div class="div col-md-4 col-lg-3 ms-2">
                             <FaHeadphonesAlt />
                             <span className='span ms-2 align-items-center'>010 1050 6405</span>
                         </div>
-                        <div class="div col-md-6 col-lg-4 mb-4 ms-2">
+
+                        <div class="div col-md-4 col-lg-4 mb-4 ms-2">
                             <AiOutlineMail />
                             <span className='span ms-2 align-items-center'>Eslam.Shoir@gmail.com</span>
                         </div>
-                        <div class="icon-social-media col-md-6 col-lg-2 ms-2">
+
+                        <div class="icon-social-media col-md-2 col-lg-2 ms-2">
                             <a href='https://www.facebook.com/eslam.shoir/' target='_blank' rel="noreferrer"><FaFacebookF/></a>
                             <a href='https://www.linkedin.com/in/eslam-shoir-497408287/' target='_blank' rel="noreferrer"><FaLinkedinIn/></a>
                             <a href='https://github.com/Eslamshier?tab=repositories' target='_blank' rel="noreferrer"><FiGithub/></a>

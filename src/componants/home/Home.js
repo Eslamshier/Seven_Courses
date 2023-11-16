@@ -88,7 +88,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='header-info col-md-2.5 d-flex justify-content-between'>
+                        <div className='header-info col-md-12 d-flex justify-content-between'>
                             <div className='elmentor'>
                                 <TbMessage2Code className='icon' />
                                 <h5>Online support 24/7</h5>
