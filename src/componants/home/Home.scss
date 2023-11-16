@@ -1,0 +1,450 @@
+@import '../../App.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+
+/*Start header*/
+.home { 
+    .home-pag{
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        .home-header {
+            padding-top: 76px;
+            h4 {
+            margin-top: 6rem;
+            color: $parimry-color;
+            font-size: 26px;
+            }
+            h1 {
+                margin-top: 2rem;
+                font-size: 46px;
+            }
+            p {
+                margin-top: 2rem;
+                font-size: 24px;
+                color: $global-span-color;
+            }
+            .home-botton {
+                margin: 2rem 0;
+                display: flex;
+                gap: 1.5rem;
+
+                .button-left {
+                    padding: 10px 24px;
+                    background-color: $parimry-color;
+                    color: $global-text-color;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    font-size: 20px;
+                    text-decoration: none;
+                }
+                .button-right {
+                    padding: 10px 24px;
+                    color: $parimry-color;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    font-size: 20px;
+                    text-decoration: none;
+
+                    .arrow-right{
+                        font-size: 20px;
+                        font-weight: bold;
+                        margin-left: 8px;
+                    }
+                }
+            }
+            .img-one{
+            width: 290px;
+                height: 290px;
+                z-index: 6;
+                top: 85px;
+                left: -15px;
+                border-radius: 4px;
+                
+            }
+            .img-two{
+                width: 42%;
+                    height: 35%;
+                    z-index: 3;
+                    top: 0;
+                    right: 0;
+                    border-radius: 4px;
+                
+            }
+            .img-three{
+            width: 100%;
+                height: 78%;
+                z-index: 4;
+                bottom: -90px;
+                right: -80px;
+                border-radius: 4px;
+
+            }
+            .img-four{
+                width: 31%;
+                    height: 31%;
+                    z-index: 5;
+                    bottom: -85px;
+                    left: -145px;
+                    border-radius: 4px;
+            }
+        }
+    }
+}
+.home .header-info {
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+.home .header-info .elmentor .icon {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+}
+.home .header-info .elmentor h5 {
+    margin-top: 25px;
+    font-size: 18px;
+
+}
+/*End header*/
+
+/*Start Courses*/
+.home .home-grid {
+    padding-top: 100px;
+}
+.home .home-grid h4{
+    text-align: center;
+    margin-bottom: 30px;
+    color: $parimry-color;
+    font-size: 22px;
+}
+.home .home-grid h1{
+    text-align: center;
+    color: $second-color;
+    font-size: 32px;
+}
+.home .home-grid .row{
+    padding-top: 100px;
+}
+.home .home-grid .row .box-courses{
+    margin-bottom: 20px;
+}
+.home .home-grid .row .box-courses .box-image {
+    position: relative;
+}
+.home .home-grid .row .box-courses .box-image  img {
+    width: 100%;
+}
+.home .home-grid .row .box-courses .box-image img:hover {
+    opacity: 0.8;
+    transition: $transition;
+}
+.home .home-grid .row .box-courses .box-image span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    background-color: $global-text-color;
+}
+.home .home-grid .row .box-courses .box-image span svg {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: $global-span-color;
+}
+.home .home-grid .row .box-courses .box-image span svg:hover{
+    color: $parimry-color;
+    transition: $transition;
+}
+.home .home-grid .row .box-courses h2{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.home .home-grid .row .box-courses h2:hover{
+    color: $parimry-color;
+    transition: $transition;
+}
+.home .home-grid .row .box-courses .spanprice {
+    margin-top: 15px;
+    color: $parimry-color;
+}
+.home .home-grid .row .box-courses .spanprice .spanSale {
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: $global-span-color;
+}
+.botton {
+    display: block;
+    width: fit-content;
+    font-size: 22px;
+    margin: 50px auto;
+    padding: 10px 25px;
+    background-color: $parimry-color;
+    border-radius: 4px;
+}
+
+.botton .li-link {
+    color: $global-text-color;
+}
+.botton svg {
+    margin-left: 10px;
+}
+.botton .li-link:hover {
+    color: $second-color;
+    transition: 0.5s;
+}
+/*End Courses*/
+
+/* Start Corousel Team*/
+.Testimonials {
+    background-color: #2FCEB1;
+    background-image: linear-gradient(to bottom right, #105E50, #0A372F);
+}
+.swiper-slide {
+    padding: 80px 60px;
+}
+.Testimonials .card-tes .box-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.Testimonials .card-tes .box-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.Testimonials .card-tes .box-img .box-titel h3 {
+    color: $global-text-color;
+    font-size: 18px;
+}
+.Testimonials .card-tes .box-img .box-titel h5 {
+    color: $parimry-color;
+    font-size: 16px;
+}
+.Testimonials .card-tes p {
+    color: $global-text-color;
+    font-size: 20px;
+}
+.swiper-slide {
+    margin: 0 !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    font-size: 25px !important;
+    color: $global-text-color !important;
+}
+// Arrow right
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: -6px !important;
+}
+
+// Arrow left
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: -6px !important;
+}
+.swiper-horizontal>.swiper-scrollbar{
+    display: none;
+}
+.swiper-pagination-bullet-active {
+    background: $global-text-color !important;
+}
+/* End Corousel Team*/
+
+/* Start Section Video */
+.section-video {
+    padding: 80px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.row-one {
+    margin-bottom: 80px;
+}
+.titel-vid  {
+    padding: 100px 0;
+}
+.section-video .titel-vid h4 {
+    color: $parimry-color;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.section-video .titel-vid p {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section-video .titel-vid a {
+    text-decoration: none !important;
+    color: $parimry-color;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid $parimry-color;
+    padding: 5px 0;
+}
+.section-video .titel-vid a svg {
+    margin-left: 10px;
+}
+/* End Section Video */
+
+/* Start Section instructors */
+.instructors {
+    padding: 80px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.instructors h2 {
+    color: $parimry-color;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.instructors .title-instructors {
+    display: flex;
+    justify-content: space-between;
+}
+.instructors .title-instructors p {
+    font-size: 32px;
+    font-weight: 600;
+}
+.instructors .title-instructors a {
+    text-decoration: none !important;
+    color: $parimry-color;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid $parimry-color;
+    padding: 5px 0;
+}
+.instructors .title-instructors a svg {
+    margin-left: 10px;
+}
+.instructors .card-instructors {
+    text-align: center;
+}
+.instructors .card-instructors img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.instructors .card-instructors h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.instructors .card-instructors p {
+    font-size: 16px;
+    color: $global-span-color;
+}
+/////
+.instructors .swiper-slide {
+    margin: 0 !important;
+    padding: 65px 0;
+}
+
+.instructors .swiper-button-prev:after,
+.instructors .swiper-rtl .swiper-button-next:after,
+.instructors .swiper-rtl .swiper-button-prev:after,
+.instructors .swiper-button-next:after,
+.instructors .swiper-rtl .swiper-button-prev:after {
+    font-size: 25px !important;
+    color: $parimry-color !important;
+}
+
+// Arrow right
+.instructors .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: -6px !important;
+}
+
+// Arrow left
+.instructors .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: -6px !important;
+}
+
+.instructors .swiper-horizontal>.swiper-scrollbar {
+    display: none;
+}
+
+.instructors .swiper-pagination-bullet-active {
+    background: $parimry-color !important;
+}
+/* end Section instructors */
+
+/* Start Section partners */
+.partners {
+    padding: 80px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.partners h2 {
+    color: $parimry-color;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.partners .title-partners {
+    display: flex;
+    justify-content: space-between;
+}
+.partners .title-partners p {
+    font-size: 32px;
+    font-weight: 600;
+}
+.partners .title-partners a {
+    text-decoration: none !important;
+    color: $parimry-color;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid $parimry-color;
+    padding: 5px 0;
+}
+.partners .title-partners a svg {
+    margin-left: 10px;
+}
+.partners .card-partners {
+    text-align: center;
+    
+}
+.partners .card-partners img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.partners .card-partners p {
+    font-size: 16px;
+    color: $global-span-color;
+    text-align: center;
+    margin: 0;
+}
+/////
+.partners .swiper-slide {
+    margin: 0 !important;
+    padding: 65px 0;
+}
+
+.partners .swiper-button-prev:after,
+.partners .swiper-rtl .swiper-button-next:after,
+.partners .swiper-rtl .swiper-button-prev:after,
+.partners .swiper-button-next:after,
+.partners .swiper-rtl .swiper-button-prev:after {
+    font-size: 25px !important;
+    color: $parimry-color !important;
+}
+
+// Arrow right
+.partners .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: -6px !important;
+}
+
+// Arrow left
+.partners .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: -6px !important;
+}
+
+.partners .swiper-horizontal>.swiper-scrollbar {
+    display: none;
+}
+
+.partners .swiper-pagination-bullet-active {
+    background: $parimry-color !important;
+}
+/* end Section partners */

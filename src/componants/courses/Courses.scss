@@ -1,0 +1,92 @@
+@import '../../App.scss';
+
+.courses {
+    padding: 80px 0;
+}
+
+.courses h1 {
+    margin: 80px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.courses ul {
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.courses ul li a {
+    color: $second-color;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+
+.courses ul li a:hover,
+.courses ul li a:focus {
+    color: $parimry-color;
+    transition: $transition;
+    border-bottom: 1px solid $parimry-color;
+}
+
+//
+.courses .row .box-courses {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.courses .row .box-courses .box-image {
+    position: relative;
+}
+
+.courses .row .box-courses .box-image img {
+    width: 100%;
+}
+
+.courses .row .box-courses .box-image img:hover {
+    opacity: 0.8;
+    transition: $transition;
+}
+
+.courses .row .box-courses .box-image span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    background-color: $global-text-color;
+}
+
+.courses .row .box-courses .box-image span svg {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: $global-span-color;
+}
+
+.courses .row .box-courses .box-image span svg:hover {
+    color: $parimry-color;
+    transition: $transition;
+}
+
+.courses .row .box-courses h2 {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.courses .row .box-courses h2:hover {
+    color: $parimry-color;
+    transition: $transition;
+}
+
+.courses .row .box-courses .spanprice {
+    margin-top: 15px;
+    color: $parimry-color;
+}
+
+.courses .row .box-courses .spanprice .spanSale {
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: $global-span-color;
+}
+

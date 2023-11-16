@@ -1,0 +1,60 @@
+@import '../../App.scss';
+
+.blog {
+    padding: 80px 0;
+}
+.blog h1 {
+    margin: 80px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.blog ul {
+    padding: 0;
+    margin-bottom: 50px;
+}
+.blog ul li a {
+    color: $second-color;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+.blog ul li a:hover,
+.blog ul li a:focus {
+    color: $parimry-color;
+    transition: $transition;
+    border-bottom: 1px solid $parimry-color;
+}
+//
+.blog .card-box {
+    padding: 0 20px 15px 0;
+}
+.blog .card-box .box-img {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.blog .card-box .box-img img {
+    width: 100%;
+    display: block;
+}
+.blog .card-box .box-img .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: $transition;
+}
+
+.blog .card-box .box-img .overlay:hover {
+    opacity: 1;
+}
+.blog .card-box h3 {
+    font-size: 22px;
+    color: $second-color;
+}
+.blog .card-box p {
+    font-size: 16px;
+    color: $global-span-color;
+}
